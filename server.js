@@ -15,7 +15,7 @@ app.engine("handlebars", exphbs({
 app.set("view engine", "handlebars");
 
 //link controller file
-var routes = require("./controllers/burgers_controller");
+var routes = require("/controllers/burgers_controllers");
 app.use("/", routes);
 
 var PORT = process.env.PORT || 3000;
